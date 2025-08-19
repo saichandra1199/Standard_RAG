@@ -1,0 +1,241 @@
+The key customers in 2021-2022 included a range of prominent companies across various industries. Notably, some of the key customers were BASF, Sojitz, Solvay, Teijin, Toray, DuPont, Sabic, DIC, Bayer, Syngenta, UPL, Sharda Chemicals Limited, FMC, Parijat, Coromandel, Colourtex, Clariant, Atul, Archroma, SunChemical, Sudarshan, and Hubergroup. Additionally, in the pharmaceutical sector, some of the key customers were SANOFI, Cipla, LUPIN, SUN PHARMA, TEVA PHARMACEUTICALS LTD, Dr. Reddy's, SANDOZ, and Zydus.
+
+The key customers for the year 2022-2023 include a variety of major chemical and industrial companies. Some of these key customers are BASF, Sabic, Syngenta, Bayer, DuPont, Solvay, Celanese, Toray, FMC, Sumitomo Chemical, Clariant, Teijin, Nouryon, Eastman, Sojitz, Colourtex, Lonza, Atul, MFL, UPL, Sudarshan, Archroma, Sharda Chemicals, and IndianOil.
+
+The key customers in 2023-2024 for the company, Aarti Industries Limited, include national and international companies from diverse industries. The list of key customers includes notable companies such as BASF, Syngenta, DuPont, Bayer, SABIC, Sojitz, Eastman, Atul, Sumitomo Chemical, Colorobbia, UPL, HP, Bharat Petroleum, GTC, Arxada, Sharda, NRL, Nouryon, IndianOil, Halliburton, ADNOC, Clariant, Celanese, Toray, Archroma, Teijin, FMC, MoL, and Sudarshan.
+
+Here's a summary of how the key customers of Aarti Industries have changed from 2021 to 2024, highlighting:
+
+
+Retained clients
+New additions
+Dropped clients
+
+✅ Consistent Customers (2021–2024)
+These companies appear in all three years:
+
+BASF
+
+
+Sojitz
+
+
+Solvay
+
+
+Teijin
+
+
+Toray
+
+
+DuPont
+
+
+Sabic
+
+
+Syngenta
+
+
+UPL
+
+
+Sharda Chemicals
+
+
+FMC
+
+
+Clariant
+
+
+Atul
+
+
+Archroma
+
+
+Sudarshan
+
+
+
+🆕 New Customers Introduced Each Year
+2022–2023 (New vs. 2021–2022)
+
+Celanese
+
+
+Sumitomo Chemical
+
+
+Nouryon
+
+
+Eastman
+
+
+Lonza
+
+
+MFL
+
+
+IndianOil
+
+
+2023–2024 (New vs. 2022–2023)
+
+Colorobbia
+
+
+HP
+
+
+Bharat Petroleum
+
+
+GTC
+
+
+Arxada
+
+
+NRL
+
+
+Halliburton
+
+
+ADNOC
+
+
+MoL
+
+
+
+❌ Dropped Customers (Previously Listed, Later Absent)
+Missing after 2021–2022
+
+DIC
+
+
+Bayer (listed in 2021–2023, missing 2023–2024)
+
+
+Parijat
+
+
+Coromandel
+
+
+Colourtex (present 2021–2023, missing 2023–2024)
+
+
+SunChemical
+
+
+Hubergroup
+
+
+Pharma Sector Customers (Only in 2021–2022)
+Not mentioned in later years:
+
+
+SANOFI
+
+
+Cipla
+
+
+LUPIN
+
+
+SUN PHARMA
+
+
+TEVA
+
+
+Dr. Reddy's
+
+
+SANDOZ
+
+
+Zydus
+
+
+
+🔁 Notes on Customer Base Evolution
+
+The chemical and agrochemical segments remain the core.
+
+
+There’s a clear shift away from pharmaceutical clients after 2021–2022.
+
+
+2023–2024 shows diversification into oil & gas and industrials (e.g., ADNOC, Halliburton, IndianOil, NRL, Bharat Petroleum).
+
+
+New global industrial and specialty chemical clients are joining (Colorobbia, Arxada, Nouryon, MoL).
+
+
+The receivables collection period for FY 2023-24 is calculated as:
+
+Receivables Collection Period (days)=Trade Receivables Turnover Ratio365 
+From the consolidated ratio analysis (Note 38), the Trade Receivables Turnover Ratio for FY 2023-24 is 7.94 times . Therefore:
+
+Receivables Collection Period=7.94365 ≈45.97 days
+So, on average, Aarti Industries collects its receivables in about 46 days during FY 2023-24.
+
+The payables period measures how many days, on average, the company takes to pay its suppliers. It’s calculated as:
+
+Payables Period (days)=Trade Payables Turnover Ratio365 
+From the FY 2023-24 ratio analysis (Note 38), Aarti Industries’ Trade Payables Turnover Ratio was 10.78 . Therefore:
+
+Payables Period=10.78365 ≈33.9 days
+So, on average, Aarti Industries takes about 34 days to settle its trade payables in FY 2023-24.
+
+For the year ended March 31, 2024, Aarti Industries’ inventory turnover ratio was 4.68 times, as per the consolidated ratio analysis in Note 38 of the Annual Report
+
+The cash conversion cycle (CCC) measures the number of days between outlay of cash for inventory and recovery of cash from receivables.  It is computed as:
+
+CCC=Days Inventory Outstanding (DIO)Inventory Turnover365   +Days Sales Outstanding (DSO)Receivables Turnover365   −Days Payables Outstanding (DPO)Payables Turnover365   
+For FY 2023-24, from the consolidated Ratio Analysis (Note 38):
+
+
+Inventory Turnover Ratio = 4.68 
+
+
+Trade Receivables Turnover Ratio = 7.94 
+
+
+Trade Payables Turnover Ratio = 10.78 
+
+
+Plugging in:
+
+
+DIO = 365 ÷ 4.68 ≈ 78.0 days
+
+
+DSO = 365 ÷ 7.94 ≈ 46.0 days
+
+
+DPO = 365 ÷ 10.78 ≈ 33.9 days
+
+
+Therefore:
+
+CCC≈78.0+46.0−33.9=90.1 days
+So, on average, Aarti Industries’ cash is tied up in the operating cycle for about 90 days in FY 2023-24.
+
+Aarti Industries first announced the brownfield expansion of its ethylation unit in its FY 2022-23 annual report (covering April 1, 2022–March 31, 2023). In that disclosure, the company said it had “embarked on expanding our Ethylation capacity at the Dahej SEZ, with a threefold increase, entailing an investment of ₹200 crores,” and targeted commissioning in the first half of FY 2025 
+.
+
+The expansion was commissioned in Q3 FY 2025 (the quarter ended December 31, 2024), when management reported that the ethylation facility had been ramped up from its original 8 KTPA to roughly 25–30 KTPA “and got commissioned this quarter” 
+. This was later reconfirmed in the Q4 FY 2025 results presentation (May 8, 2025), which noted “Successful commissioning of expansion projects in Ethylation value chain… ethylation capacity expanding to 30 kT” 
+.
+
+Once in production, the enlarged ethylation capacity delivered a 38% year-on-year volume growth in FY 2025 (up to 14.5 KTPA from 10.5 KTPA in FY 2024), achieving about 48% utilization of the new 30 KTPA capacity

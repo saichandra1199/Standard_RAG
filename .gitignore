@@ -1,0 +1,5 @@
+.env
+.venv
+.all_data
+.black_box
+__pycache__
