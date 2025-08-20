@@ -1,9 +1,25 @@
 import os
+import sys
 import tempfile
 import time
+import warnings
 import concurrent.futures
 from typing import List, Optional, Dict, Any, Tuple, Union
 from pathlib import Path
+
+# Suppress warnings
+warnings.filterwarnings("ignore")
+os.environ['TOKENIZERS_PARALLELISM'] = 'false'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Suppress TensorFlow logging
+
+# Suppress specific deprecation warnings
+import logging
+logging.getLogger("PIL").setLevel(logging.ERROR)
+logging.getLogger("pdf2image").setLevel(logging.ERROR)
+logging.getLogger("easyocr").setLevel(logging.ERROR)
+logging.getLogger("pytesseract").setLevel(logging.ERROR)
+
+# Import after setting up logging
 from pdf2image import convert_from_path
 from langchain_community.document_loaders import (
     TextLoader,

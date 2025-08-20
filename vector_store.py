@@ -1,4 +1,16 @@
+import os
+import warnings
 from typing import List, Optional, Dict, Any
+
+# Suppress warnings
+warnings.filterwarnings("ignore")
+os.environ['TOKENIZERS_PARALLELISM'] = 'false'
+
+# Import after setting up logging
+import logging
+logging.getLogger("langchain_core").setLevel(logging.ERROR)
+logging.getLogger("langchain").setLevel(logging.ERROR)
+
 from langchain_community.vectorstores import Qdrant
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_core.documents import Document

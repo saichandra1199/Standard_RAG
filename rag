@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Start Qdrant in the background
+echo "🚀 Starting Qdrant database..."
+docker run -d -p 6333:6333 -p 6334:6334 --name qdrant qdrant/qdrant
+
+# Activate virtual environment
+source .venv/bin/activate
+
+# Start the RAG interactive shell
+echo "🤖 Starting RAG interactive shell..."
+python cli.py
+
+# Clean up when done
+echo "
+🛑 Stopping Qdrant database..."
+docker stop qdrant
+docker rm qdrant

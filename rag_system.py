@@ -1,12 +1,27 @@
-from typing import List, Dict, Any
-from langchain_community.chat_models import ChatOpenAI
+import os
+import warnings
+from typing import List, Dict, Any, Optional
+
+# Suppress warnings
+warnings.filterwarnings("ignore")
+os.environ['TOKENIZERS_PARALLELISM'] = 'false'
+
+# Suppress specific deprecation warnings
+import logging
+logging.getLogger("langchain_core").setLevel(logging.ERROR)
+logging.getLogger("langchain").setLevel(logging.ERROR)
+
+# Import after setting up logging
+from pydantic.v1 import BaseModel
+from langchain_core.embeddings import Embeddings
+from langchain_community.vectorstores import Qdrant
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain.chains import RetrievalQA
-from langchain_core.prompts import PromptTemplate
-from langchain_core.documents import Document
+from langchain.prompts import PromptTemplate
 from document_processor import DocumentProcessor
+from dotenv import load_dotenv
 from vector_store import VectorStoreManager
 from config import settings
-import os
 
 class RAGSystem:
     def __init__(self):
