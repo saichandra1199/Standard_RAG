@@ -1,25 +1,22 @@
-# Advanced RAG System with Multi-Format Support
+# Interactive RAG System
 
-A comprehensive Retrieval-Augmented Generation (RAG) system that supports multiple document formats including PDFs, Word documents, text files, CSVs, and images using OCR. Built with LangChain, Google Gemini, and QdrantDB.
+A clean, interactive Retrieval-Augmented Generation (RAG) system with support for multiple document formats including PDFs, Word documents, text files, CSVs, and images with OCR.
 
 ## 🌟 Features
 
-- **Multi-format Support**: Process PDFs, Word documents, text files, CSVs, and images (with OCR)
-- **AI-Powered**: Leverages Google Gemini for advanced text and image understanding
-- **Hybrid Text Extraction**: Combines OCR (Tesseract, EasyOCR) with AI-powered text extraction
-- **Scalable Storage**: Uses Qdrant vector database for efficient similarity search
-- **Command-line Interface**: Simple and intuitive CLI for all operations
-- **Configurable**: Customize chunking, embedding models, and search parameters
-- **Fallback Mechanisms**: Automatically falls back to alternative methods when primary methods fail
+- **Interactive Shell**: Clean, user-friendly interface for Q&A
+- **Multi-format Support**: Handles PDFs, Word, text, CSVs, and images
+- **AI-Powered**: Uses OpenAI for text understanding and embeddings
+- **Fast Search**: Qdrant vector database for efficient retrieval
+- **Simple Commands**: Intuitive commands for all operations
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
 - Python 3.11+
-- Google API Key (for Gemini)
-- QdrantDB (runs locally by default)
-- Tesseract OCR (for fallback text extraction)
+- Docker (for QdrantDB)
+- OpenAI API Key
 
 ### Installation
 
@@ -29,7 +26,7 @@ A comprehensive Retrieval-Augmented Generation (RAG) system that supports multip
    cd Standard_RAG
    ```
 
-2. **Set up a virtual environment (recommended)**:
+2. **Set up a virtual environment**:
    ```bash
    python -m venv .venv
    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
@@ -40,30 +37,67 @@ A comprehensive Retrieval-Augmented Generation (RAG) system that supports multip
    pip install -r requirements.txt
    ```
 
-4. **Install Tesseract OCR**:
-   - **macOS**: `brew install tesseract`
-   - **Ubuntu/Debian**: `sudo apt-get install tesseract-ocr`
-   - **Windows**: Download from [UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)
-
-5. **Configure environment variables**:
-   Create a `.env` file in the project root with your API key:
+4. **Set up environment variables**:
+   Create a `.env` file with your OpenAI API key:
    ```env
-   # Required
-   GOOGLE_API_KEY=your_google_api_key_here
-   
-   # Optional (with defaults)
+   OPENAI_API_KEY=your_openai_api_key_here
    QDRANT_URL=http://localhost:6333
    QDRANT_COLLECTION=documents
-   EMBEDDING_MODEL=text-embedding-3-small
-   CHUNK_SIZE=1000
-   CHUNK_OVERLAP=200
-   MAX_TOKENS=1000
-   TEMPERATURE=0.1
    ```
 
-## 🛠️ Usage
+### 🖥️ Usage
 
-### Command Line Interface
+1. **Start the interactive shell**:
+   ```bash
+   ./rag
+   ```
+   This will start Qdrant and launch the interactive shell.
+
+2. **Add documents to the knowledge base**:
+   ```
+   ❓ Your question: add documents/example.pdf documents/notes.txt
+   ```
+
+3. **Ask questions**:
+   ```
+   ❓ Your question: What are the key points from the documents?
+   ```
+
+4. **Clear the knowledge base** (if needed):
+   ```
+   ❓ Your question: clear
+   ```
+
+5. **Exit the shell**:
+   ```
+   ❓ Your question: exit
+   ```
+
+### 🔄 Alternative: One-time Commands
+
+You can also run commands directly without the interactive shell:
+
+```bash
+# Add documents
+python cli.py add documents/example.pdf
+
+# Qdrant Configuration
+QDRANT_URL=http://localhost:6333
+QDRANT_COLLECTION=documents
+
+# Text Processing
+CHUNK_SIZE=1000
+CHUNK_OVERLAP=200
+
+# AI Model Settings
+EMBEDDING_MODEL=text-embedding-3-small
+MAX_TOKENS=1000
+TEMPERATURE=0.1
+```
+
+## 🛠️ Advanced Usage
+
+### Direct CLI Commands
 
 The system provides a simple CLI for all operations:
 
